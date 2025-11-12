@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
 }
 
 .header{
+    padding: 120px;
     height: 150px;
     display: flex;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 400px;
 }
 
 .logo{
@@ -21,12 +21,32 @@
 }
 
 h1{
+    background: linear-gradient(140deg, #F9E0A9, #DBC58B, #A98A4E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-family: 'Exo 2', sans-serif;
-    color: #ffffff;
     font-size: 26px;
 }
 
 h2{
-    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif; 
+    color: #121212; 
+    font-size: 32px; 
+    text-transform: uppercase;
 }
 
+.square-shape-S{
+    height: 90px;
+    width: 200px;
+    background-color: #e94141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    border: 40px;
+}
+
+.main{
+    background-color: #121212;
+}
