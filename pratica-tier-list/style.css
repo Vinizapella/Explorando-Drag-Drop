@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.main{
+    background-color: #1a1919;
+}
+
 .header{
-    padding: 120px;
+    padding: 80px;
     height: 150px;
     display: flex;
     align-items: center;
     padding-left: 400px;
-}
-
-.logo{
-    height: 100px;
-    width: 100px;
-    margin-left: 80px;
+    background-color: #1a1919;
 }
 
 h1{
@@ -26,14 +26,23 @@ h1{
     background-clip: text;
     color: transparent;
     font-family: 'Exo 2', sans-serif;
-    font-size: 26px;
+    font-size: 32px;
 }
 
-h2{
-    font-family: 'Bebas Neue', sans-serif; 
-    color: #121212; 
-    font-size: 32px; 
-    text-transform: uppercase;
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.shelf{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 5px;
+    padding: 3px;
+    background-color: #000000;
 }
 
 .square-shape-S{
@@ -43,10 +52,59 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
-    border: 40px;
+    Border-radius: 10px;
 }
 
-.main{
-    background-color: #121212;
+h2{
+    font-family: 'Bebas Neue', sans-serif; 
+    color: #121212; 
+    font-size: 28px; 
+    text-transform: uppercase;
+}
+
+.placing-option{
+    height: 90px;
+    width: 1200px;
+    background-color: #1a1919;
+    border-radius: 10px;
+}
+
+.square-shape-A{
+    height: 90px;
+    width: 200px;
+    background-color: #FFC966;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Border-radius: 10px;
+}
+
+.square-shape-B{
+    height: 90px;
+    width: 200px;
+    background-color: #FFFF8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Border-radius: 10px;
+}
+
+.square-shape-C{
+    height: 90px;
+    width: 200px;
+    background-color: #8EFF8D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Border-radius: 10px;
+}
+
+.square-shape-D{
+    height: 90px;
+    width: 200px;
+    background-color: #8DA0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Border-radius: 10px;
 }
