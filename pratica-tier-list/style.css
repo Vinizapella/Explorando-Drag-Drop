@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     padding-left: 400px;
-    background-color: #1a1919;
 }
 
 h1{
@@ -45,10 +44,9 @@ h1{
     background-color: #000000;
 }
 
-.square-shape-S{
+.square-shape-S, .square-shape-A, .square-shape-B, .square-shape-C, .square-shape-D{
     height: 90px;
     width: 200px;
-    background-color: #e94141;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,42 +67,22 @@ h2{
     border-radius: 10px;
 }
 
+.square-shape-S{
+    background-color: #e94141;
+}
+
 .square-shape-A{
-    height: 90px;
-    width: 200px;
     background-color: #FFC966;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    Border-radius: 10px;
 }
 
 .square-shape-B{
-    height: 90px;
-    width: 200px;
     background-color: #FFFF8D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    Border-radius: 10px;
 }
 
 .square-shape-C{
-    height: 90px;
-    width: 200px;
     background-color: #8EFF8D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    Border-radius: 10px;
 }
 
 .square-shape-D{
-    height: 90px;
-    width: 200px;
     background-color: #8DA0FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    Border-radius: 10px;
 }
