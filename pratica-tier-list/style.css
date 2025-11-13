@@ -7,16 +7,13 @@
     box-sizing: border-box;
 }
 
-.main{
-    background-color: #1a1919;
-}
-
 .header{
     padding: 80px;
     height: 150px;
     display: flex;
     align-items: center;
     padding-left: 400px;
+    background-color: #1a1919;
 }
 
 h1{
@@ -29,23 +26,27 @@ h1{
 }
 
 .logo{
-    height: 100px;
-    width: 100px;
-    margin-left: 50px;
+    height: 95px;
+    width: 95px;
+    margin-left: 30px;
+}
+
+.main{
+    background-color: #1a1919;
 }
 
 .shelf{
     display: flex;
     align-items: center;
     margin-left: 300px;
-    margin-right: 300px;
-    gap: 5px;
+    margin-right: 200px;
+    gap: 7px;
     padding: 3px;
     background-color: #000000;
 }
 
 .square-shape-S, .square-shape-A, .square-shape-B, .square-shape-C, .square-shape-D{
-    height: 90px;
+    height: 100px;
     width: 200px;
     display: flex;
     justify-content: center;
@@ -61,8 +62,8 @@ h2{
 }
 
 .placing-option{
-    height: 90px;
-    width: 1200px;
+    height: 100px;
+    width: 1300px;
     background-color: #1a1919;
     border-radius: 10px;
 }
@@ -85,4 +86,16 @@ h2{
 
 .square-shape-D{
     background-color: #8DA0FF;
+}
+
+.section-teams{
+    display: flex;
+    gap: 5px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.teams{
+    height: 95px;
+    width: 95px;
 }
