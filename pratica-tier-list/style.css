@@ -106,10 +106,30 @@ h3{
     gap: 10px;
     margin-top: 7px;
     margin-left: 230px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .teams{
     height: 95px;
     width: 95px;
     border-radius: 10px;
+}
+
+.footer{
+    height: 80px;
+    background-color: #1a1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    background: linear-gradient(140deg, #F9E0A9, #DBC58B, #A98A4E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
 }
