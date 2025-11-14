@@ -1,4 +1,4 @@
-const dropzones = document.querySelectorAll('.shape-dropzone');
+const dropzones = document.querySelectorAll('.shape-dropzone, .options-sections-teams');
 const draggables = document.querySelectorAll('.teams');
 
 draggables.forEach(draggable => {
@@ -30,7 +30,7 @@ dropzones.forEach(dropzone => {
             const containerToMove = draggableElement.parentElement;
             containerToMove.classList.remove('hide-on-drag');
             dropzone.appendChild(containerToMove);
-            console.log('Elemento ${draggableId} solto com sucesso', event.target.className);
+            console.log(`Elemento ${draggableId} solto com sucesso`, event.target.className);
         }
     });
 

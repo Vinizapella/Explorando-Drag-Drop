@@ -37,7 +37,6 @@ h1{
 
 .shelf{
     display: flex;
-    align-items: center;
     margin-left: 200px;
     margin-right: 200px;
     gap: 7px;
@@ -62,7 +61,7 @@ h2{
 }
 
 .placing-option{
-    height: 100px;
+    min-height: 100px;
     width: 1300px;
     background-color: #1a1919;
     border-radius: 10px;
